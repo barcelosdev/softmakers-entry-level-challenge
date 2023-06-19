@@ -1,0 +1,16 @@
+:root {
+    --blue: #056CF2;
+    --white: #F8F8F8;
+    --gray: #E9E9E9;
+
+    --cancel: rgba(0, 0, 0, 0.10);
+    --warning: #ED1C24;
+
+    --text: #5C6167;
+    --placeholder: #5c61677c;
+
+    --stroke: rgba(0, 0, 0, 0.2);
+    --shadow: rgba(0, 0, 0, 0.1);
+
+    --overlay: rgba(0, 0, 0, 0.5);
+}

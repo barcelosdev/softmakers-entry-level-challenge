@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+@import './stylesheets/utils.css';
+@import './stylesheets/colors.css';
+@import './stylesheets/atoms.css';
+@import './stylesheets/molecules.css';
+@import './stylesheets//organisms.css';
+@import './stylesheets/pages.css';
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: var(--gray);
+    color: var(--text);
+    margin: 0;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+blockquote,
+dd {
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    transition: all 0.3s ease-out;
+}
+
+a:hover {
+    transition: all 0.3s ease-in;
+    opacity: 70%;
+}
+
+button {
+    padding: 0;
+    border-style: none;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+button:active {
+    opacity: 20%;
+}
+
+input,
+input:focus,
+input:active,
+select,
+select:focus,
+select:active {
+    border-style: none;
+    outline: none;
+}

@@ -1,0 +1,107 @@
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+
+    background-color: var(--overlay);
+    position: fixed;
+
+    z-index: 999;
+
+    transition: all .3s ease-in-out;
+}
+
+.pop-up {
+    z-index: 9999;
+}
+
+.pop-up,
+.pet-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.pop-up {
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+
+    position: absolute;
+
+    background-color: var(--white);
+    border-radius: 1rem;
+
+    width: 32.37rem;
+    height: fit-content;
+}
+
+.pop-up .data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 0rem;
+    gap: 1rem;
+}
+
+.pet-card .content,
+.pet-card .content .header,
+.pet-card .content .atributes,
+.pet-card .content .atributes .data {
+    display: flex;
+    flex-direction: row;
+}
+
+.pet-card {
+    padding: 1rem;
+    gap: 1rem;
+
+    height: fit-content;
+
+    background: var(--white);
+    box-shadow: 0rem 0.4375rem 0.9375rem var(--shadow);
+    border-radius: 0.6rem;
+}
+
+.pet-card .content {
+    width: 100%;
+    height: fit-content;
+}
+
+.pet-card .content,
+.pet-card .content .header,
+.pet-card .content .atributes {
+    justify-content: space-between;
+}
+
+.pet-card .content .header {
+    gap: 0.5rem;
+}
+
+.pet-card .content .atributes {
+    /* gap: 4rem; */
+    width: 100%;
+    max-width: 50rem;
+    align-items: flex-end;
+}
+
+.pet-card .content .atributes .data {
+    /* display: flex; */
+    gap: 0.5rem;
+}
+
+.pet-card .content .edit-btn {
+    background: transparent;
+    color: var(--text);
+    padding: 0rem;
+    width: fit-content;
+    height: fit-content;
+}
