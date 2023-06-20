@@ -21,8 +21,8 @@ Para seu funcionamento geral, A API utiliza das seguintes rotas, no padrão REST
 POST `/api/pets`  
 GET `/api/pets`  
 GET `/api/pets/:id`  
-PUT `/api/pets`  
-DELETE `/api/pets`
+PUT `/api/pets/:id`  
+DELETE `/api/pets/:id`
 
 > **Nota!**
 >
